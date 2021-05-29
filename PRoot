@@ -1,0 +1,26 @@
+Update Repo
+
+  pkg update
+  
+Install PRoot
+
+  pkg install proot -y
+  
+  unset LD_PRELOAD
+  
+Installing Linux distributions
+
+  pkg install proot-distro
+  
+Install distro
+
+  proot-distro install alpine
+  proot-distro install archlinux
+  proot-distro install debian-buster
+  proot-distro install nethunter
+  proot-distro install ubuntu-18.04
+  proot-distro install ubuntu-20.04
+  
+Login Distro
+
+  proot-distro login <Alias>
